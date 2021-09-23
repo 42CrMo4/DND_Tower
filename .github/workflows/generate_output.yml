@@ -80,7 +80,7 @@ jobs:
       uses: actions/upload-artifact@v1
       with:
         name: Schematic_raw
-        path: '*.sch'
+        path: '$Project-Name.sch'
 
     - name: Run Schematic and BOM 
       run: |
@@ -118,7 +118,7 @@ jobs:
       uses: actions/upload-artifact@v1
       with:
         name: Kicad_PCB_raw
-        path: '*.kicad_pcb'
+        path: '$Project-Name.kicad_pcb'
     - name: Run PCB stuff
       run: |
         [ -f *.kicad_pcb ] && kiplot  -d Fabrication -s all print_front print_back gerbers gerber_drills pcb_top_b pcb_bottom_b
