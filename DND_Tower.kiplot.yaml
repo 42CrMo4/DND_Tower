@@ -140,7 +140,7 @@ outputs:
     type: pcbdraw
     dir: PCB/blue
     options:
-      format: svg
+      format: png
       style: set-blue-enig
       show_components: all
       dpi: 600
