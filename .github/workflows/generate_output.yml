@@ -85,7 +85,7 @@ jobs:
     - name: Retrieve resulted PDF and BOM
       uses: actions/upload-artifact@v1
       with:
-        name: FabSch_Output_$Project-Name
+        name: FabSch_Output
         path: 'Fabrication'
 
   FabPCB:
