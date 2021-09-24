@@ -144,7 +144,6 @@ outputs:
       style: set-blue-enig
       show_components: all
       dpi: 600
-      warnings: all
 
   - name: pcb_bottom_b
     comment: "PCB render bottom blue "
@@ -156,4 +155,3 @@ outputs:
       bottom: True
       show_components: all
       dpi: 600
-      warnings: all
